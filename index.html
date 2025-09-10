@@ -2,114 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Belvoir Build Group — Product Catalog</title>
-  <meta name="description" content="Belvoir Build Group product catalog, mobile + laptop responsive, with messaging CTA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Belvoir Build Group — Privacy Policy</title>
   <style>
-    *,*::before,*::after{box-sizing:border-box}
-    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial; color:#fff; background:#000}
-    a{color:inherit;text-decoration:none}
-    img{max-width:100%;display:block}
-
-    :root{
-      --accent:#d4af37;
-      --muted:#c0c0c0;
-      --card-bg:#111;
-      --surface:#1a1a1a;
-      --radius:12px;
-      --shadow:0 6px 18px rgba(0,0,0,0.4);
-      --container:1200px;
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
     }
-
-    .site{max-width:var(--container);margin:28px auto;padding:0 16px}
-
-    header.topbar{display:flex;justify-content:center;align-items:center;gap:20px;padding:14px 0;cursor:pointer}
-    .logo{font-weight:700;letter-spacing:-0.4px;font-size:24px}
-
-    .hero{background:#111;padding:60px 20px;text-align:center;border-radius:var(--radius);margin-bottom:40px}
-    .hero h1{font-size:32px;margin-bottom:16px}
-    .hero p{font-size:16px;color:var(--muted);margin-bottom:24px}
-
-    .product-list{display:grid;gap:24px;align-content:start}
-    @media(min-width:1100px){.product-list{grid-template-columns:repeat(4,1fr)}}
-    @media(min-width:800px) and (max-width:1099px){.product-list{grid-template-columns:repeat(3,1fr)}}
-    @media(min-width:560px) and (max-width:799px){.product-list{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:559px){.product-list{grid-template-columns:1fr}}
-
-    .card{background:var(--card-bg);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;transition:transform 0.2s}
-    .card:hover{transform:translateY(-4px)}
-    .media{height:200px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-    .media img{height:100%;object-fit:cover;width:100%}
-    .body{padding:12px 14px;display:flex;flex-direction:column;gap:6px}
-    .product-title{font-size:15px;font-weight:600}
-    .product-meta{font-size:13px;color:var(--muted)}
-    .price{font-weight:700;font-size:16px;color:var(--accent)}
-
-    .btn{padding:10px 12px;border-radius:var(--radius);border:0;cursor:pointer;font-weight:600;text-align:center}
-    .btn.primary{background:var(--accent);color:#000}
-
-    footer{margin:60px 0 80px;color:var(--muted);font-size:14px;text-align:center}
+    a { color: #d4af37; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #222;
+      cursor: pointer;
+    }
+    header h1 { margin: 0; font-size: 24px; font-weight: 700; color: #d4af37; }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      color: #d4af37;
+    }
+    p {
+      margin-bottom: 16px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #222;
+      color: #888;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
-  <div class="site">
-    <header class="topbar" onclick="location.href='https://www.belvoirbuildgroup.co.zw'">
-      <div class="logo">Belvoir Build Group</div>
-    </header>
+  <header onclick="location.href='https://www.belvoirbuildgroup.co.zw'">
+    <h1>Belvoir Build Group</h1>
+  </header>
 
-    <section class="hero">
-      <h1>Quality Construction & Sourcing Solutions</h1>
-      <p>Explore our product catalog and message us for personalized quotes. We provide premium building and construction materials with reliable sourcing.</p>
-    </section>
+  <main>
+    <h2>Privacy Policy</h2>
+    <p>Belvoir Build Group (“we”, “our”, or “us”) is committed to protecting the privacy of our clients, partners, and visitors. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or contact us for sourcing and construction services.</p>
 
-    <main>
-      <section id="productGrid" class="product-list">
-        <!-- Product cards injected here -->
-      </section>
-    </main>
+    <h2>Information We Collect</h2>
+    <ul>
+      <li>Contact information such as name, email, and phone number.</li>
+      <li>Product inquiries and messages sent through our website or WhatsApp.</li>
+      <li>Website usage data, including pages visited and interactions.</li>
+    </ul>
 
-    <footer>
-      <p>© <span id="year"></span> Belvoir Build Group — Sourcing and construction solutions across Zimbabwe.</p>
-      <p><a href="https://wa.me/+263XXX" target="_blank">Contact: WhatsApp +263 XXX XXX XXX</a></p>
-    </footer>
-  </div>
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To provide accurate product quotes and sourcing solutions.</li>
+      <li>To communicate important updates regarding your orders or inquiries.</li>
+      <li>To improve our website and services.</li>
+    </ul>
+
+    <h2>Sharing Your Information</h2>
+    <p>We do not sell your personal information. Your data may be shared with trusted partners only for the purpose of fulfilling your requests or improving service quality.</p>
+
+    <h2>Cookies and Analytics</h2>
+    <p>We use cookies and analytics tools to understand website traffic and improve user experience. You may disable cookies in your browser settings, but some features of our website may not function correctly.</p>
+
+    <h2>Data Security</h2>
+    <p>We implement reasonable security measures to protect your data from unauthorized access or disclosure. However, no method of transmission over the Internet is 100% secure.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or how we handle your data, please contact us via <a href="https://wa.me/+263XXX" target="_blank">WhatsApp</a> or email at info@belvoirbuildgroup.co.zw.</p>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Belvoir Build Group — Sourcing and construction solutions across Zimbabwe.
+  </footer>
 
   <script>
-    const PRODUCTS = [
-      {id:1,title:'High-Quality Cement Bags',price:15,condition:'New',img:'https://picsum.photos/id/1011/600/400'},
-      {id:2,title:'Steel Rods — 12mm',price:120,img:'https://picsum.photos/id/1012/600/400'},
-      {id:3,title:'Roofing Sheets — Corrugated',price:200,img:'https://picsum.photos/id/1013/600/400'},
-      {id:4,title:'Construction Sand (Ton)',price:50,img:'https://picsum.photos/id/1014/600/400'}
-    ];
-
-    const grid = document.getElementById('productGrid');
-    function renderProducts(){
-      PRODUCTS.forEach(p => {
-        const card = document.createElement('article');
-        card.className = 'card';
-        card.innerHTML = `
-          <div class="media"><img src="${p.img}" alt="${p.title}"></div>
-          <div class="body">
-            <div class="product-title">${p.title}</div>
-            <div class="product-meta">Condition: ${p.condition}</div>
-            <div class="price">$${p.price}</div>
-            <button class="btn primary" onclick="messageForQuote('${p.title}')">Message for Quote</button>
-          </div>
-        `;
-        grid.appendChild(card);
-      });
-    }
-
-    function messageForQuote(title){
-      const phone = '+263XXX';
-      const message = encodeURIComponent(`Hello, I am interested in ${title}. Please provide a quote.`);
-      window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
-    }
-
-    document.addEventListener('DOMContentLoaded',()=>{
-      renderProducts();
-      document.getElementById('year').textContent = new Date().getFullYear();
-    });
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
